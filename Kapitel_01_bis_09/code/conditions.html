@@ -25,7 +25,7 @@
 
         let b = 2;
         if ( a == 1 && b == 2 ) {
-            console.log( "a ist 2 und b ist 2" );
+            console.log( "a ist 1 und b ist 2" );
         }
 
         if ( a == 8 || b == 2 ) {
@@ -41,9 +41,9 @@
         if ( a > 0 ) {
             console.log( "a ist größer 0" );
         }
-
+        let username = prompt("Bitte geben Sie den Benutzer ein:");
         let password = prompt( "Bitte geben Sie das Passwort ein:" );
-        if ( password == "geheim" ) {
+        if (( password == "geheim" ) & ( username == "Markus")) {
             document.body.innerHTML="";
             document.write( "Dieser Text hier ist geheim.");
         }
